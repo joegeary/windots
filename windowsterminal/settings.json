@@ -1,0 +1,101 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ],
+  "alwaysShowTabs": true,
+  "centerOnLaunch": true,
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "initialCols": 150,
+  "initialPosition": ",",
+  "initialRows": 38,
+  "launchMode": "focus",
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "macchiato",
+      "font": {
+        "face": "JetBrainsMono Nerd Font",
+        "size": 10.4
+      },
+      "opacity": 90,
+      "padding": "10",
+      "scrollbarState": "hidden",
+      "useAcrylic": true
+    },
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "commandline": "pwsh.exe --nologo",
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Catppuccin Macchiato",
+
+      "cursorColor": "#F4DBD6",
+      "selectionBackground": "#5B6078",
+
+      "background": "#24273A",
+      "foreground": "#CAD3F5",
+
+      "black": "#494D64",
+      "red": "#ED8796",
+      "green": "#A6DA95",
+      "yellow": "#EED49F",
+      "blue": "#8AADF4",
+      "purple": "#F5BDE6",
+      "cyan": "#8BD5CA",
+      "white": "#B8C0E0",
+
+      "brightBlack": "#5B6078",
+      "brightRed": "#ED8796",
+      "brightGreen": "#A6DA95",
+      "brightYellow": "#EED49F",
+      "brightBlue": "#8AADF4",
+      "brightPurple": "#F5BDE6",
+      "brightCyan": "#8BD5CA",
+      "brightWhite": "#A5ADCB"
+    }
+  ],
+  "showTabsInTitlebar": true
+}
